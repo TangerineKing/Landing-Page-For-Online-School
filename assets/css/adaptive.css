@@ -1,0 +1,88 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1600px) { 
+   
+}
+@media only screen and (max-width: 1400px) {
+    .img-why {
+        margin-left: 77px !important;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+
+    .img-why {
+        margin-left: 51px !important;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    
+
+    .text-wrapper h4 {
+        font-size: 28px;
+    }
+
+    .text-wrapper li {
+        font-size: 14px;
+    }
+
+    .img-why {
+        margin-left: 15px !important;
+    }
+    .if, .free {
+        height: auto;
+    }
+    
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+   
+
+    
+    .img-why {
+        margin-left: 0px !important;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .text-wrapper h4 {
+        font-size: 22px;
+    }
+
+
+    .btn_price {
+        padding: 15px 104px;
+        font-size: 14px;
+    }
+    .color {
+        font-size: 22px;
+    }
+    .color-price {
+        font-size: 25px;
+    }
+
+    .row {
+        display: inline !important;
+    }
+
+    .offset-2 {
+        margin-left: 0 !important;
+    }
+    .img-why {
+        margin-left: 100px !important;
+    }
+
+    .politics {
+        font-size: 14px;
+    }
+    .if, .free {
+        height: auto;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .politics {
+        font-size: 12px;
+    }
+}
